@@ -1,0 +1,163 @@
+{
+  "settings": {
+    "variants": [
+      "tint",
+      "shade"
+    ],
+    "operations": {
+      "tint": "add",
+      "shade": "subtract"
+    },
+    "offsets": {
+      "lightness": 2,
+      "chroma": 2,
+      "hue": 1
+    }
+  },
+  "colours": {
+    "grape": {
+      "name": "Grape",
+      "role": "accent",
+      "hex": "8819EC",
+      "lch": {
+        "lightness": 40.014,
+        "chroma": 108.495,
+        "hue": 309.59
+      },
+      "cmyk": {
+        "cyan": 0.42,
+        "magenta": 0.89,
+        "yellow": 0.00,
+        "key": 0.07
+      }
+    },
+    "raspberry": {
+      "name": "Raspberry",
+      "role": "accent",
+      "hex": "EA33ED",
+      "lch": {
+        "lightness": 57.859,
+        "chroma": 97.892,
+        "hue": 326.222
+      },
+      "cmyk": {
+        "cyan": 0.01,
+        "magenta": 0.78,
+        "yellow": 0.00,
+        "key": 0.07
+      }
+    },
+    "peach": {
+      "name": "Peach",
+      "role": "accent",
+      "hex": "F2978A",
+      "lch": {
+        "lightness": 71.881,
+        "chroma": 40.541,
+        "hue": 32.926
+      },
+      "cmyk": {
+        "cyan": 0.00,
+        "magenta": 0.38,
+        "yellow": 0.43,
+        "key": 0.05
+      }
+    },
+    "lemon": {
+      "name": "Lemon",
+      "role": "accent",
+      "hex": "F5F451",
+      "lch": {
+        "lightness": 94.17,
+        "chroma": 75.545,
+        "hue": 100.177
+      },
+      "cmyk": {
+        "cyan": 0.00,
+        "magenta": 0.00,
+        "yellow": 0.67,
+        "key": 0.04
+      }
+    },
+    "pear": {
+      "name": "Pear",
+      "role": "accent",
+      "hex": "6AD71B",
+      "lch": {
+        "lightness": 77.247,
+        "chroma": 88.908,
+        "hue": 127.145
+      },
+      "cmyk": {
+        "cyan": 0.51,
+        "magenta": 0.00,
+        "yellow": 0.87,
+        "key": 0.16
+      }
+    },
+    "lychee": {
+      "name": "Lychee",
+      "role": "accent",
+      "hex": "EEE3FA",
+      "lch": {
+        "lightness": 91.634,
+        "chroma": 12.01,
+        "hue": 305.345
+      },
+      "cmyk": {
+        "cyan": 0.05,
+        "magenta": 0.09,
+        "yellow": 0.00,
+        "key": 0.02
+      }
+    },
+    "blackberry": {
+      "name": "Blackberry",
+      "role": "accent",
+      "hex": "191923",
+      "lch": {
+        "lightness": 9.116,
+        "chroma": 7.269,
+        "hue": 287.344
+      },
+      "cmyk": {
+        "cyan": 0.29,
+        "magenta": 0.29,
+        "yellow": 0.00,
+        "key": 0.86
+      }
+    },
+    "white": {
+      "name": "White",
+      "role": "base",
+      "hex": "FAFAFC",
+      "lch": {
+        "lightness": 98.314,
+        "chroma": 0.996,
+        "hue": 285.311
+      },
+      "cmyk": {
+        "cyan": 0.01,
+        "magenta": 0.01,
+        "yellow": 0.00,
+        "key": 0.01
+      }
+    },
+    "black": {
+      "name": "Black",
+      "role": "base",
+      "hex": "101015",
+      "lch": {
+        "lightness": 4.807,
+        "chroma": 3.011,
+        "hue": 285.248
+      },
+      "cmyk": {
+        "cyan": 0.24,
+        "magenta": 0.24,
+        "yellow": 0.00,
+        "key": 0.92
+      }
+    }
+  }
+}
