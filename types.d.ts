@@ -18,7 +18,11 @@ type CMYK = {
 type Settings = {
   variants: string[]
   operations: {
-    [key: string]: 'add' | 'subtract'
+    [key: string]: {
+      lightness: 'add' | 'subtract',
+      chroma: 'add' | 'subtract',
+      hue: 'add' | 'subtract'
+    }
   }
   offsets: LCH
 }

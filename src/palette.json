@@ -5,8 +5,16 @@
       "shade"
     ],
     "operations": {
-      "tint": "add",
-      "shade": "subtract"
+      "tint": {
+        "lightness": "add",
+        "chroma": "subtract",
+        "hue": "add"
+      },
+      "shade": {
+        "lightness": "subtract",
+        "chroma": "add",
+        "hue": "subtract"
+      }
     },
     "offsets": {
       "lightness": 2,

@@ -27,13 +27,13 @@ function buildColourBlock (colour: Colour, settings: Settings): string {
 
     for (const variant of variants) {
       const variantId = `${id}-${variant}`
-      const operation = settings.operations[variant]
+      const operations = settings.operations[variant]
 
       block += `
         --${variantId}: lch(
-          ${adjustValue(colour.lch.lightness, offsets.lightness, operation)}%
-          ${adjustValue(colour.lch.chroma, offsets.chroma, operation)}
-          ${adjustValue(colour.lch.hue, offsets.hue, operation)}
+          ${adjustValue(colour.lch.lightness, offsets.lightness, operations.lightness)}%
+          ${adjustValue(colour.lch.chroma, offsets.chroma, operations.chroma)}
+          ${adjustValue(colour.lch.hue, offsets.hue, operations.hue)}
         );
       `
     }
