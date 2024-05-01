@@ -102,9 +102,9 @@
   
 </table>
 
-Accent colours can be modified by adding or subtracting the following parameters:
+Accent colours can be modified by subtracting or subtracting the following parameters:
 ```
-lightness: `2`
+lightness: `4`
 chroma: `2`
 hue: `1`
 ```
