@@ -66,9 +66,9 @@
   <tr>
     <td><img src="assets/palette/lychee.svg" width="24"></td>
     <td>Lychee</td>
-    <td><code>#EEE3FA</code></td>
-    <td><code>lch(91.634% 12.01 305.345)</code></td>
-    <td><code>5% 9% 0% 2%</code></td>
+    <td><code>#EEEEF5</code></td>
+    <td><code>lch(94.314% 2.996 284.311)</code></td>
+    <td><code>3% 3% 0% 4%</code></td>
   </tr>
   
   <tr>
@@ -87,9 +87,9 @@
   <tr>
     <td><img src="assets/palette/white.svg" width="24"></td>
     <td>White</td>
-    <td><code>#FAFAFC</code></td>
-    <td><code>lch(98.314% 0.996 285.311)</code></td>
-    <td><code>1% 1% 0% 1%</code></td>
+    <td><code>#FFFFFF</code></td>
+    <td><code>lch(100% 0 0)</code></td>
+    <td><code>0% 0% 0% 0%</code></td>
   </tr>
   
   <tr>
