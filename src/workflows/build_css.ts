@@ -39,7 +39,7 @@ function buildColourBlock (colour: Colour, settings: Settings): string {
     }
   }
 
-  return block
+  return `  ${minifyString(block)}\n`
 }
 
 
@@ -60,7 +60,6 @@ export async function buildCSSFile (palette: Colour[], settings: Settings): Prom
 
   return readFile('./src/templates/css.tpl')
     .then(template => template.replace('%CSS%', css))
-    .then(template => minifyString(template))
     .then(template => writeFile('dist/palette.css', template))
 
 }

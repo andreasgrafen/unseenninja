@@ -1,1 +1,5 @@
-:root { %CSS% }
+:root {
+
+%CSS%
+
+}
