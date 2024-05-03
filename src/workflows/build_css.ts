@@ -37,6 +37,14 @@ function buildColourBlock (colour: Colour, settings: Settings): string {
         );
       `
     }
+
+    block += `
+      --${id}--gradient: linear-gradient(
+        120deg,
+        var(--${id}-${variants[0]}),
+        var(--${id}-${variants[1]})
+      );
+    `
   }
 
   return `  ${minifyString(block)}\n`
